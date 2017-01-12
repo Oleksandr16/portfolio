@@ -5,3 +5,29 @@ body {
     margin: 0 auto;
     max-width: 1920px;
 }
+.sidebar{
+    background-color: #eee;
+}
+.about{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#menu {
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 2%;
+}
+#photo {
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    padding: 2%;
+    margin-top: 2%;
+    margin-left: 39%;
+}
