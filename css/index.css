@@ -31,3 +31,7 @@ body {
     margin-top: 2%;
     margin-left: 39%;
 }
+.img {
+    display: flex;
+    justify-content: space-around;
+}
