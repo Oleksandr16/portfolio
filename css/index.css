@@ -35,9 +35,23 @@ body {
 .img {
     display: flex;
     justify-content: space-around;
+    border-radius: 50%;
 }
 #lang{
     font-size: 50px;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 2%;
+}
+#langimg {
+     display: flex;
+     justify-content: space-around;
+     
+}
+#cont {
+     font-size: 50px;
     color: #333;
     display: flex;
     justify-content: center;
