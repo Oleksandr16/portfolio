@@ -58,3 +58,7 @@ body {
     align-items: center; 
     margin-top: 2%;
 }
+#form {
+    display: block;
+    padding-left: 1%;
+}
