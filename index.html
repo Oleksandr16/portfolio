@@ -3,16 +3,15 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Portfolio</title>
+    <title>Sasha`s_web_site</title>
     <link rel="stylesheet" href="css/index.css">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 </head>
-
 <body>
-    <h1>My Portfolio</h1>
+    <h1>Oleksandr Fediuk</h1>
     <nav class="navbar navbar-default">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -28,7 +27,7 @@
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
+                <ul class="nav navbar-nav navbar-right">
                     <li><a href="#skills">Skills<span class="sr-only">(current)</span></a></li>
                     <li><a href="#lang">Languages</a></li>
                     <li><a href="#about">About</a></li>
@@ -45,12 +44,12 @@
                         </ul>
                     </li>-->
                 </ul>
-                <form class="navbar-form navbar-right">
+                <!--<form class="navbar-form navbar-right">
                     <div class="form-group">
                         <input type="text" class="form-control" placeholder="Search">
                     </div>
                     <button type="submit" class="btn btn-default">Submit</button>
-                </form>
+                </form>-->
                 </div>
             </div>
             <!-- /.navbar-collapse -->
@@ -59,21 +58,25 @@
     </nav>
     <div class="sidebar">
         <img id="photo" src="img/I.jpg"alt="myphoto"></img>
-        <p class="about">Hello my name is Alex, i`m 18 years old, I`m a front-end developer</p>
+        <p class="about">Hello my name is Alex,<br> i`m 18 years old,<br> I`m a front-end developer</p>
     </div>
     <h1 id="skills">skills</h1>
-    <div class="img">
-        <img src="img/html.png" alt="html"></img>
-        <img src="img/ccs.png" alt="ccs"></img>
-        <img src="img/js.png" alt="js"></img>
-        </ul>
-    </div>
+        <div id=img>
+        <img id="html" src="img/html1.jpg" alt="html"></img>
+        <img id="css" src="img/css.png" alt="ccs"></img>
+        <img id="js" src="img/js.jpg" alt="js"></img>
+        </div>
+        <div id="boot_res">
+        <img id="boot" src="img/boots.png" alt="bootstrap"></img>
+        <img id="res" src="img/responsive.png" alt="responsive"></img>
+        </div>
     <h1 id="lang">languages</h1>
     <div id="langimg">
         <img src="img/en.jpg" alt="icon_en"></img>
         <img src="img/ua.jpg" alt="icon_ua"></img>
         <img src="img/ru.jpg" alt="icon_ru"></img>
     </div>
+    <div id="footer">
     <h1 id="cont">Contact</h1>
     <form id="form" action="" method="POST" enctype="multipart/form-data">
     <input type="hidden" name="action" value="submit">
@@ -82,9 +85,10 @@
     Your email:<br>
     <input name="email" type="text" value="" size="30"/><br>
     Your message:<br>
-    <textarea name="message" rows="7" cols="30"></textarea><br>
+    <textarea name="message" rows="3" cols="32"></textarea><br>
     <input type="submit" value="Send email"/>
     </form>
+    </div>
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
