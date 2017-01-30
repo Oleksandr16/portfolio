@@ -9,7 +9,7 @@ body {
     background-color: #eee;
 }
 .about{
-    font-size: 30px;
+    font-size: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -74,6 +74,18 @@ body {
 #langimg {
      display: flex;
      justify-content: space-around;
+}
+#proj {
+    font-size: 50px;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 2%;
+}
+#project {
+    display: flex;
+    justify-content: space-around;
 }
 #cont {
      font-size: 50px;
