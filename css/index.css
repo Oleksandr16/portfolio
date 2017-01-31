@@ -144,3 +144,24 @@ height: 150px;
   background-color: #eee;
   color: #333;
 }
+.link_social {
+    display: flex;
+    justify-content: space-around;
+}
+#g {
+    width: 80px;
+    height: 80px;
+    padding: 10%;
+    padding-right: 3%;
+}
+#f {
+    padding: 10%;
+    width: 80px;
+    height: 80px;
+}
+#v {
+    padding: 10%;
+    padding-left: 3%;
+    width: 80px;
+    height: 80px;
+}
