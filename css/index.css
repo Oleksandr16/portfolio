@@ -1,10 +1,12 @@
-*{
+* {
     margin: 0;
 }
-#body{
+
+#body {
     margin: 0 auto;
     max-width: 1920px;
 }
+
 @keyframes bounce {
     0%,
     20%,
@@ -19,37 +21,42 @@
         transform: translateY(-5px);
     }
 }
+
 .emblema {
-display: flex;
-justify-content: flex-start;
-height: 150px;
-    
+    display: flex;
+    justify-content: flex-start;
+    height: 150px;
 }
-.sidebar{
+
+.sidebar {
     background-color: #eee;
 }
-.about{
+
+.about {
     font-size: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     padding-left: 5%;
 }
+
 #skills {
     font-size: 50px;
     color: #333;
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
     margin-top: 2%;
 }
-#photo {
+
+.photo {
     display: flex;
     justify-content: center;
     border-radius: 50%;
     width: 300px;
     height: 300px;
-    margin-left: 40%;
+    margin-left: auto;
+    margin-right: auto;
     padding: 2%;
 }
 
@@ -72,12 +79,13 @@ height: 150px;
     display: flex;
     width: 25%;
     height: 200px;
-    
 }
+
 #css {
     width: 25%;
     height: 200px;
 }
+
 #js {
     width: 25%;
     height: 200px;
@@ -87,78 +95,91 @@ height: 150px;
     display: flex;
     justify-content: space-around;
 }
+
 #boot_res {
-     display: flex;
+    display: flex;
     justify-content: space-around;
 }
+
 #boot {
     width: 200px;
     height: 200px;
     margin-left: 16%;
 }
+
 #res {
     width: 20%;
     height: 200px;
     margin-right: 14%;
 }
-#lang{
+
+#lang {
     font-size: 50px;
     color: #333;
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
     margin-top: 2%;
 }
-#langimg  {
-     display: flex;
-     justify-content: space-around;
-     animation: bounce 1.2s;
+
+#langimg {
+    display: flex;
+    justify-content: space-around;
+    animation: bounce 1.2s;
 }
+
 #proj {
     font-size: 50px;
     color: #333;
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
     margin-top: 2%;
 }
+
 #project {
     display: flex;
     justify-content: space-around;
 }
+
 #cont {
-     font-size: 50px;
+    font-size: 50px;
     color: #333;
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
     margin-top: 2%;
 }
-#form{
-  margin: 0 auto;
-  width: 400px;
-  height: 250px;
-  padding: 1em;
-  border: 1px solid #CCC;
-  border-radius: 1em;
-  background-color: #eee;
-  color: #333;
+
+#form {
+    margin: 0 auto;
+    width: 400px;
+    height: 250px;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    background-color: #eee;
+    color: #333;
 }
+
 .link_social {
     display: flex;
     justify-content: space-around;
 }
+
 #g {
     width: 80px;
     height: 80px;
     padding: 10%;
     padding-right: 3%;
 }
+
 #f {
     padding: 10%;
     width: 80px;
     height: 80px;
 }
+
 #v {
     padding: 10%;
     padding-left: 3%;
